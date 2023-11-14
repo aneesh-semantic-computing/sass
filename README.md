@@ -5,4 +5,4 @@
 * Nesting
 * Inheritance
 * Operators
-* Parials and Modules
+* Partials and Modules
