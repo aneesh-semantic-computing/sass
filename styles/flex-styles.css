@@ -1,0 +1,22 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  width: 75dvw;
+  height: 90dvh;
+  background-color: darkcyan;
+  margin: 50px auto;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.children {
+  width: 20dvw;
+  height: 25dvh;
+  display: flex;
+  background-color: crimson;
+  color: white;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=flex-styles.css.map */

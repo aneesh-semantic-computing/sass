@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+@mixin heading($color, $backgroundColor: transparent, $property:null, $value:null) {
+  @if $backgroundColor != transparent {
+    background-color: $backgroundColor;
+  }
+
+  @if $property != null {
+    #{$property}: $value;
+  }
+  font-size: $base-heading-size;
+  margin-bottom: $heading-margin;
+  color: $color;
+}
